@@ -5,7 +5,6 @@ import type React from "react"
 import { motion } from "framer-motion"
 import HeroSection from "@/components/hero-section"
 import { ContentBlocks } from "@/components/content-blocks"
-import { ImageGallery } from "@/components/image-gallery"
 import { ServicesSection } from "@/components/services-section"
 import { Footer } from "@/components/footer"
 import { FloatingButton } from "@/components/floating-button"
@@ -44,11 +43,6 @@ export default function Home() {
       <section id="content">
         <ScrollRevealSection delay={0.2}>
           <ContentBlocks language={language} />
-        </ScrollRevealSection>
-      </section>
-      <section id="gallery">
-        <ScrollRevealSection delay={0.4}>
-          <ImageGallery language={language} />
         </ScrollRevealSection>
       </section>
       <section id="services">

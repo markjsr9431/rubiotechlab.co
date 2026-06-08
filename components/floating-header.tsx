@@ -60,7 +60,6 @@ export function FloatingHeader({ language, setLanguage }: FloatingHeaderProps) {
     { id: "hero", label: language === "es" ? "Inicio" : "Home", type: "scroll" },
     { id: "about", label: language === "es" ? "Sobre Mí" : "About Me", type: "link", href: "/about" },
     { id: "content", label: language === "es" ? "Contenido" : "Content", type: "scroll" },
-    { id: "gallery", label: language === "es" ? "Galería" : "Gallery", type: "scroll" },
     { id: "services", label: language === "es" ? "Servicios" : "Services", type: "scroll" },
     { id: "blog", label: language === "es" ? "Blog" : "Blog", type: "link", href: "/blog" },
     { id: "contact", label: language === "es" ? "Contacto" : "Contact", type: "scroll" },

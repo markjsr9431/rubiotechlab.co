@@ -31,18 +31,6 @@ export const translations = {
           "Guías detalladas, trucos y comparativas de los principales sistemas operativos para optimizar el rendimiento de tus dispositivos.",
       },
     },
-    gallery: {
-      title: "Galería Tecnológica",
-      all: "Todos",
-      categories: {
-        celulares: "Celulares",
-        ia: "IA",
-        ciberseguridad: "Ciberseguridad",
-        sistemas: "Sistemas",
-        gadgets: "Gadgets",
-        redes: "Redes",
-      },
-    },
     services: {
       title: "Servicios Especializados",
       subtitle: "Soluciones tecnológicas profesionales para mantener tus equipos funcionando de manera óptima.",
@@ -138,18 +126,6 @@ export const translations = {
         title: "Operating Systems",
         description:
           "Detailed guides, tricks and comparisons of the main operating systems to optimize the performance of your devices.",
-      },
-    },
-    gallery: {
-      title: "Tech Gallery",
-      all: "All",
-      categories: {
-        celulares: "Phones",
-        ia: "AI",
-        ciberseguridad: "Cybersecurity",
-        sistemas: "Systems",
-        gadgets: "Gadgets",
-        redes: "Networks",
       },
     },
     services: {
