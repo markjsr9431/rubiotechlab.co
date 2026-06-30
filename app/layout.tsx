@@ -11,13 +11,13 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "PCFixer José - Tecnología al alcance de todos",
+  title: "Rubiotechlab.co - Tecnología al alcance de todos",
   description:
     "Sitio web profesional sobre tecnología, celulares, inteligencia artificial, ciberseguridad y sistemas operativos. Mantenimiento y reparación de computadores.",
   keywords: ["tecnología", "reparación PC", "mantenimiento computadores", "celulares", "ciberseguridad", "José Rubio"],
-  authors: [{ name: "José Rubio", url: "https://pcfixerjose.com" }],
+  authors: [{ name: "José Rubio", url: "https://rubiotechlab.co" }],
   creator: "José Rubio",
-  publisher: "PCFixer José",
+  publisher: "Rubiotechlab",
   robots: "index, follow",
   icons: {
     icon: [
@@ -30,17 +30,17 @@ export const metadata: Metadata = {
     apple: "https://i.imgur.com/K79zfqk.png",
   },
   openGraph: {
-    title: "PCFixer José - Tecnología al alcance de todos",
+    title: "Rubiotechlab.co - Tecnología al alcance de todos",
     description:
       "Experto en tecnología, reparación y mantenimiento de computadores. Blog sobre celulares, IA y ciberseguridad.",
-    url: "https://pcfixerjose.com",
-    siteName: "PCFixer José",
+    url: "https://rubiotechlab.co",
+    siteName: "Rubiotechlab",
     type: "website",
     locale: "es_ES",
   },
   twitter: {
     card: "summary_large_image",
-    title: "PCFixer José - Tecnología al alcance de todos",
+    title: "Rubiotechlab.co - Tecnología al alcance de todos",
     description: "Experto en tecnología, reparación y mantenimiento de computadores.",
     creator: "@pcfixer_jose",
   },
