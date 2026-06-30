@@ -57,8 +57,8 @@ export function Footer({ language = "es" }: FooterProps) {
             <p className="text-gray-600 dark:text-gray-300 mb-2">{t.footer.contactText}</p>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               {t.footer.email}{" "}
-              <a href="mailto:pcfixerjose@gmail.com" className="text-cyan-600 dark:text-cyan-400 hover:underline">
-                pcfixerjose@gmail.com
+              <a href="mailto:rubiotechlab.co@gmail.com" className="text-cyan-600 dark:text-cyan-400 hover:underline">
+                rubiotechlab.co@gmail.com
               </a>
             </p>
             
