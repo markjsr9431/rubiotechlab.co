@@ -53,14 +53,14 @@ export function ServicesSection({ language }: ServicesSectionProps) {
       description: t.services.items.cleaning.description,
       icon: Cpu,
       color: "from-cyan-500 to-teal-600",
-      image: "/images/limpieza-hardware.png",
+      image: null,
     },
     {
       title: t.services.items.home.title,
       description: t.services.items.home.description,
       icon: Home,
       color: "from-blue-500 to-cyan-600",
-      image: "/images/servicio-domicilio.png",
+      image: null,
     },
   ]
 
@@ -87,7 +87,7 @@ export function ServicesSection({ language }: ServicesSectionProps) {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               whileHover={{ y: -10, transition: { duration: 0.2 } }}
-              className="bg-white/90 dark:bg-black/30 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-cyan-950/50 hover:border-cyan-500/50 transition-all duration-300 overflow-hidden shadow-lg"
+              className="bg-white/90 dark:bg-black/30 backdrop-blur-sm rounded-xl border border-gray-200 dark:border-cyan-950/50 hover:border-cyan-500/50 transition-all duration-300 overflow-hidden"
             >
               {service.image && (
                 <div
@@ -115,7 +115,7 @@ export function ServicesSection({ language }: ServicesSectionProps) {
                   asChild
                   variant="outline"
                   size="sm"
-                  className="border-cyan-600 dark:border-cyan-800/50 hover:border-cyan-500 hover:bg-cyan-50 dark:hover:bg-cyan-950/30 text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 transition-all duration-300"
+                  className="border-cyan-600 dark:border-cyan-800/50 hover:border-cyan-500 hover:bg-cyan-50 dark:hover:bg-cyan-950/30 text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300"
                 >
                   <Link
                     href="https://linktr.ee/pcfixerjose"
@@ -169,7 +169,7 @@ export function ServicesSection({ language }: ServicesSectionProps) {
                   <Button
                     asChild
                     variant="outline"
-                    className="border-cyan-600 dark:border-cyan-800/50 hover:border-cyan-500 hover:bg-cyan-50 dark:hover:bg-cyan-950/30 text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 transition-all duration-300"
+                    className="border-cyan-600 dark:border-cyan-800/50 hover:border-cyan-500 hover:bg-cyan-50 dark:hover:bg-cyan-950/30 text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300"
                   >
                     <Link
                       href="https://linktr.ee/pcfixerjose"
