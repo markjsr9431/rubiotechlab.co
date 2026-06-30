@@ -3,7 +3,7 @@ import { Linkedin } from "lucide-react";
 export const translations = {
   es: {
     hero: {
-      title: "PCFixer José",
+      title: "Rubiotechlab",
       subtitle: "Tecnología al alcance de todos",
       button: "Escríbeme por WhatsApp",
     },
@@ -86,7 +86,7 @@ export const translations = {
     },
     footer: {
       title: "Contacto",
-      brand: "PCFixer José",
+      brand: "Rubiotechlab",
       description: "Tecnología al alcance de todos. Tutoriales, noticias y consejos sobre el mundo tech.",
       contact: "Contacto",
       contactText: "¿Tienes alguna pregunta o sugerencia?",
@@ -100,7 +100,7 @@ export const translations = {
   },
   en: {
     hero: {
-      title: "PCFixer José",
+      title: "Rubiotechlab",
       subtitle: "Technology within everyone's reach",
       button: "Follow me on Instagram",
     },
@@ -180,7 +180,7 @@ export const translations = {
     },
     footer: {
       title: "Contact",
-      brand: "PCFixer José",
+      brand: "Rubiotechlab",
       description: "Technology within everyone's reach. Tutorials, news and advice about the tech world.",
       contact: "Contact",
       contactText: "Do you have any questions or suggestions?",
