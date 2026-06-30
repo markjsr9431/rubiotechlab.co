@@ -118,7 +118,7 @@ export function ServicesSection({ language }: ServicesSectionProps) {
                   className="border-cyan-600 dark:border-cyan-800/50 hover:border-cyan-500 hover:bg-cyan-50 dark:hover:bg-cyan-950/30 text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300"
                 >
                   <Link
-                    href="https://linktr.ee/pcfixerjose"
+                    href="https://www.instagram.com/rubiotechlab.co"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center"
@@ -172,7 +172,7 @@ export function ServicesSection({ language }: ServicesSectionProps) {
                     className="border-cyan-600 dark:border-cyan-800/50 hover:border-cyan-500 hover:bg-cyan-50 dark:hover:bg-cyan-950/30 text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300"
                   >
                     <Link
-                      href="https://linktr.ee/pcfixerjose"
+                      href="https://www.instagram.com/rubiotechlab.co"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center"
