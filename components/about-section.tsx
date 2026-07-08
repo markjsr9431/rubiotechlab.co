@@ -32,8 +32,8 @@ export function AboutSection({ language }: AboutSectionProps) {
             <div className="relative">
               <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-2xl border-4 border-white dark:border-gray-800">
                 <img
-                  src="https://i.imgur.com/K79zfqk.png"
-                  alt="José - PCFixer José"
+                  src="/images/favicon.ico"
+                  alt="Rubiotechlab - Tecnología al alcance de todos"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -56,7 +56,7 @@ export function AboutSection({ language }: AboutSectionProps) {
                 </span>
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                ¡Hola! Soy José, el rostro y las manos detrás de PCFixer José. Mi objetivo es simple: resolver tus
+                ¡Hola! Soy José, el rostro y las manos detrás de Rubiotechlab. Mi objetivo es simple: resolver tus
                 problemas tecnológicos con una perspectiva única. Como diseñador de corazón y técnico por vocación, no
                 solo reparo tu equipo, sino que busco optimizar tu experiencia completa.
               </p>
