@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Rubiotechlab.co - Tecnología al alcance de todos",
     description: "Experto en tecnología, reparación y mantenimiento de computadores.",
-    creator: "@pcfixer_jose",
+    creator: "@rubiotechlab",
   },
   generator: "v0.dev",
 }
