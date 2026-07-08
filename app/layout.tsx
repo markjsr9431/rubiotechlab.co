@@ -22,12 +22,12 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "https://i.imgur.com/K79zfqk.png",
-        type: "image/png",
+        url: "/favicon.ico",
+        type: "image/x-icon",
       },
     ],
-    shortcut: "https://i.imgur.com/K79zfqk.png",
-    apple: "https://i.imgur.com/K79zfqk.png",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   openGraph: {
     title: "Rubiotechlab.co - Tecnología al alcance de todos",
@@ -55,9 +55,9 @@ export default function RootLayout({
   return (
     <html lang="es" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="https://i.imgur.com/K79zfqk.png" type="image/png" />
-        <link rel="shortcut icon" href="https://i.imgur.com/K79zfqk.png" />
-        <link rel="apple-touch-icon" href="https://i.imgur.com/K79zfqk.png" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
       </head>
       <body className={`${poppins.variable} font-sans`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange={false}>
