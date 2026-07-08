@@ -102,7 +102,7 @@ export const translations = {
     hero: {
       title: "Rubiotechlab",
       subtitle: "Technology within everyone's reach",
-      button: "Follow me on Instagram",
+      button: "Contact me on WhatsApp",
     },
     content: {
       title: "Exploring the Tech World",
