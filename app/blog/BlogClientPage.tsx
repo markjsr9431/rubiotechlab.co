@@ -11,7 +11,6 @@ import { FloatingHeader } from "@/components/floating-header"
 import { useLanguage } from "@/hooks/use-language"
 import Image from "next/image"
 import { FloatingButton } from "@/components/floating-button"
-import { ChatbotWidget } from "@/components/chatbot-widget"
 
 const blogArticles = {
   es: [
@@ -61,7 +60,7 @@ const blogArticles = {
         <p>La acumulación de polvo es el enemigo número uno de las computadoras. Realiza limpieza profunda cada 6 meses.</p>
         
         <h3>Verificación de Componentes</h3>
-        <p>Revisa regularmente el estado de cables, conectores y componentes internos para detectar signos de desgaste.</p>
+        <p>Revisa regularmente el estado de cables, conectores y componentes internos para detectar signos de desgarre.</p>
         
         <h2>Mantenimiento de Software</h2>
         <ul>
@@ -567,7 +566,6 @@ export default function BlogClientPage() {
 
       {/* Floating Buttons */}
       <FloatingButton />
-      <ChatbotWidget />
     </div>
   )
 }

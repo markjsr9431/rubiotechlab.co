@@ -9,7 +9,6 @@ import { ServicesSection } from "@/components/services-section"
 import { Footer } from "@/components/footer"
 import { FloatingButton } from "@/components/floating-button"
 import { FloatingHeader } from "@/components/floating-header"
-import { ChatbotWidget } from "@/components/chatbot-widget"
 import { useLanguage } from "@/hooks/use-language"
 import { useScrollReveal } from "@/hooks/use-scroll-reveal"
 
@@ -56,7 +55,6 @@ export default function Home() {
         </ScrollRevealSection>
       </section>
       <FloatingButton language={language} />
-      <ChatbotWidget language={language} />
     </main>
   )
 }
